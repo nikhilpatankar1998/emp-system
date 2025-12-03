@@ -1,0 +1,49 @@
+# Laravel & PHP
+/vendor/
+.env
+.env.*
+.phpunit.result.cache
+
+# Laravel storage & cache
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/framework/cache
+/storage/logs
+
+# Node & Frontend
+/node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Laravel build (Vite / Mix)
+public/hot
+/public/build
+/public/mix-manifest.json
+
+# IDE / Editors
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS / System
+.DS_Store
+Thumbs.db
+
+# Composer lock files (optional: keep if you want exact versions)
+# composer.lock
+
+# PHPUnit & Testing
+.phpunit.cache
+coverage/
+
+# Logs
+*.log
+
+/public/download/ScreenshotApp.exe
+/google-chrome-stable_current_amd64.deb
+
